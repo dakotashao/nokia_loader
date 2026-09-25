@@ -7,6 +7,7 @@ A playful progress indicator styled like an early-2000s Nokia monochrome LCD. A 
 | Version | Link | What it shows |
 |---|---|---|
 | **Determinate** | https://nokia-loader.vercel.app | Progress is known (0–100%). Dots fill along the rail, and an invisible wall at the current progress stops the bird until the send hits 100%. |
+| **Process** | https://nokia-loader.vercel.app/process | Design history: every iteration, the feedback behind it, and what was rolled back. |
 | **Indeterminate** | https://nokia-loader.vercel.app/indeterminate | Progress is unknown. Dots sweep back and forth, a timer counts up, and the mailbox stays closed until the task reports done. |
 
 ## How to play
@@ -20,6 +21,7 @@ A playful progress indicator styled like an early-2000s Nokia monochrome LCD. A 
 
 - `index.html` — determinate version
 - `indeterminate.html` — indeterminate version
+- `process.html` — design process history
 - `vercel.json` — enables clean URLs (`/indeterminate` without `.html`)
 
 Each HTML file is fully self-contained; open it directly in a browser. Timing, status text, colors and launch strength are in the `CONFIG` block at the top of each file's script.
